@@ -2,6 +2,9 @@
 
 `gombine` is a small utility to combine images together.
 
+I created this so that I could combine multiple images from
+a comic in to one single image and also learn golang doing it.
+
 Given 5 images as input, `gombine` can place the given
 images next to each other or below each other. The default
 is to place the images below each other
