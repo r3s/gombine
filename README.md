@@ -15,9 +15,7 @@ commandline argument. The default format is png.
 
 ### Installation
 ```sh
-$ go get github.com/r3s/Go-Crypter
-$ cd $GOPATH/bin
-$ ./Go-Crypter testfile.txt
+$ go get github.com/r3s/gombine
 ```
 ### Usage
 
