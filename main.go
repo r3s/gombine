@@ -171,7 +171,7 @@ func makeImage(th, tw, maxh, maxw int, images []*imageData, format, side, outfil
 
 func main() {
 	log.SetPrefix("GOMBINE")
-	// format and side, commandline arguments
+	// format, side and out commandline arguments
 	format := flag.String("format", "png", "Output file format, supports png/jpg")
 	side := flag.String("side", "bottom", "bottom or right")
 	outfile := flag.String("out", "combined.png", "Output file name")
