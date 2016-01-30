@@ -16,6 +16,8 @@ commandline argument. The default format is png.
 ### Installation
 ```sh
 $ go get github.com/r3s/gombine
+$ cd <src folder>
+$ go build
 ```
 ### Usage
 
@@ -25,3 +27,4 @@ $ gombine -format=jpg -side=right -out=out.png file1.jpg file2.png
 ```
 
 
+![](http://i.imgur.com/ZEgXyau.gifv)
