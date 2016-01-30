@@ -27,4 +27,4 @@ $ gombine -format=jpg -side=right -out=out.png file1.jpg file2.png
 ```
 
 
-![](http://i.imgur.com/ZEgXyau.gifv)
+![](http://i.imgur.com/ZEgXyau.gif)
