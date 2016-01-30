@@ -217,6 +217,6 @@ func main() {
 		processImages(images, *format, *side, *outfile)
 
 	} else {
-		log.Fatal("No files given")
+		log.Fatal("Number of files should be between 1 and 10")
 	}
 }
