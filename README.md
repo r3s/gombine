@@ -25,6 +25,12 @@ $ go build
 $ gombine -format=png -side=bottom -out=out.png file1.png file2.png
 $ gombine -format=jpg -side=right -out=out.png file1.jpg file2.png
 ```
-
-
 ![](http://i.imgur.com/ZEgXyau.gif)
+
+### Commandline Arguments
+
+**format** : Output file format. Can be png or jpg (Default:png)
+
+**side**   : Side to which images are to be appended. Can be bottom or right (Default:bottom)
+
+**out**    : Output file name. Default is "combined"+format (Ex: combined.png)
